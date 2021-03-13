@@ -1,0 +1,8 @@
+{% extends "1.html" %}
+{% block content %}
+<meta charset="UTF-8">
+<h2 align="center">Nostalgy</h2>
+<h3 align="center">{{ user['users']['name'] }} {{ user['users']['surname'] }}</h3>
+<h4 align="center">Map {{ user['users']['city_from'] }}</h4>
+<p align="center"><img src="{{ user['users']['city'] }}"></p>
+{% endblock %}
